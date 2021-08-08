@@ -1,14 +1,26 @@
-<!DOCTYPE html> <!-- HTML 기본 형식 - !로 불러온다-->
+<!--21.08.08-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- css 불러오기 -->
-    <title>Momentum</title> <!-- html의 제목 지정 -->
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum</title>
 </head>
-<body>
-    <script src="momentum.js"></script> <!-- JS 불러오기 -->
+    <body>
+<form id="login-form"> <!-- div -> form -->
+    <input 
+    required
+    maxlength="5"
+    type="text"
+    placeholder="이름을 입력하세요"
+    /> <!--입력한 값은 value에 저장된다
+    required : 빈칸 제한
+    maxlength : string 길이 제한-->
+                        
+    <button>로그인</button>
+    </form>
+    <script src="momentum.js"></script>
 </body>
 </html>
-<!-- 주석 -->
