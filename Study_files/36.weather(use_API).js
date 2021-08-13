@@ -1,6 +1,6 @@
 //21.08.13 / 날씨 추가
 //API : https://openweathermap.org/api
-const API_KEY = "837edfbcf40440e7adadebc03d9182db"; //openweather API Key
+const API_KEY = "###"; //openweather API Key
 
 function GeoOk(position){ //(position) : JS가 기본으로 제공하는 좌표 위치
     const lat = position.coords.latitude; //latitude = 위도(-)
