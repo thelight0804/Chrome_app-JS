@@ -1,5 +1,5 @@
 //21.08.13 / 날씨 추가
-//API : https://openweathermap.org/api
+//API : ###
 const API_KEY = "###"; //openweather API Key
 
 function GeoOk(position){ //(position) : JS가 기본으로 제공하는 좌표 위치
